@@ -1,0 +1,56 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.header {
+  grid-column: 1 / 4;
+  background-color: rgb(0, 140, 100);
+  text-align: center;
+  padding: 20px;
+  font-size: 40px ;
+  color: black;
+}
+.links {
+  background-color: rgb(70, 130, 180);
+  text-align: left;
+  padding: 60px;
+  color: black;
+}
+
+.about {
+  background-color: rgb(70, 130, 180);
+  text-align: left;
+  padding: 60px;
+  color: black;
+}
+
+.contact {
+  background-color: rgb(70, 130, 180);
+  text-align: left;
+  padding: 60px;
+  color: black;
+}
+
+
+.nav {
+  grid-column: 1 / 4;
+  background-color: rgb(70, 130, 180);
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+.footer {
+  grid-column: 1 / 4;
+  background-color: rgb(0, 140, 100);
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  color: black;
+}
+
+a:link { color: blue; text-decoration: none; }     
+a:visited { color: purple; }                        
+a:hover { color: magenta; font-weight: bold; }         
+a:active { color: red; }
